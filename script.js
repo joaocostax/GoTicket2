@@ -674,7 +674,7 @@ function renderAuthModal(isRegister = false) {
         <h2 class="text-2xl font-black text-white uppercase italic">${isRegister ? 'Criar Conta' : 'Entrar no Goticket'}</h2>
         <div class="flex gap-2">
           <button onclick="renderAuthModal(false)" class="text-xs font-bold uppercase px-3 py-1.5 rounded-lg transition-all ${!isRegister ? 'bg-violet-600 text-white' : 'text-slate-400 hover:text-white'}">Entrar</button>
-          <button onclick="renderAuthModal(true)" class="text-xs font-bold uppercase px-3 py-1.5 rounded-lg transition-all ${isRegister ? 'bg-violet-600 text-white' : 'text-slate-400 hover:text-white'}">Registar</button>
+          <button onclick="renderAuthModal(true)" class="text-xs font-bold uppercase px-3 py-1.5 rounded-lg transition-all ${isRegister ? 'bg-violet-600 text-white' : 'text-slate-400 hover:text-white'}">Registrar</button>
         </div>
       </div>
 
@@ -697,7 +697,7 @@ function renderAuthModal(isRegister = false) {
         </div>
 
         <button type="submit" class="w-full bg-violet-600 hover:bg-violet-500 text-white py-4 rounded-2xl font-black text-xs uppercase tracking-widest transition-all shadow-xl">
-          ${isRegister ? 'Registar Conta' : 'Aceder Conta'}
+          ${isRegister ? 'Registar Conta' : 'Entrar na Conta'}
         </button>
       </form>
     </div>
