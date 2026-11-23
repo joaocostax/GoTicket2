@@ -3,16 +3,16 @@ const allEvents = [
   // Hero Banner (4 eventos)
   {
     id: 1,
-    title: "Duna - Parte 3",
-    category: "CINEMA",
-    price: 55.00,
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1600",
-    description: "A conclusão épica da jornada de Paul Atreides pelo deserto de Arrakis, lidando com o destino do universo conhecido.",
+    title: "Samba - Festa de Samba",
+    category: "MÚSICA",
+    price: 75.00,
+    image: "https://thumbor.novaescola.org.br/VyKqKsYpNNbBUd0Q-e16bwx4ckU=/assets.novaescola.org.br/uypyaNenCsGuEEd87A2mubYmNvcXz9JY3AzDYjYZB5cArKJQrMrBBc5mNEgZ/rio-de-janeiro-carnaval.jpg",
+    description: "Venha curtir uma festa com músicas de samba de qualidade.",
     duration: "2h47"
   },
   {
     id: 2,
-    title: "Electronic Night: Deep House",
+    title: "Noite Eletrônica: Deep House",
     category: "MÚSICA",
     price: 150.00,
     image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=1600",
@@ -53,7 +53,7 @@ const allEvents = [
     title: "Conferência Global de IA 2026",
     category: "TECNOLOGIA",
     price: 320.00,
-    image: "https://images.unsplash.com/photo-1540575861501-7ad05823c9f5?auto=format&fit=crop&q=80&w=1600",
+    image: "https://enriquesanjuan.es/wp-content/uploads/2024/01/sesiones-y-conferencias-de-IA-para-reuniones-eventos-y-congresos.jpg",
     description: "Palestras magnas sobre o futuro da inteligência artificial generativa e impactos na sociedade moderna.",
     duration: "8h00"
   },
